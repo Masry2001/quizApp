@@ -12,7 +12,8 @@ let questionsCategory = document.querySelector(".questions-category");
 let quizApp = document.querySelector(".quiz-app");
 let questionsh3 = document.querySelector(".quiz-app h3");
 let questionsButtons = document.querySelectorAll(".questions-category button");
-let category = document.querySelector(".category span")
+let category = document.querySelector(".category span");
+let toggle = document.querySelector(".toggle");
 
 // set options
 let currentIndex = 0;
@@ -27,6 +28,7 @@ questionsButtons.forEach((questionButton, index) => {
         let clickedButton = questionButton.innerHTML;
         category.innerHTML = clickedButton;
         let JSONFile = "";
+        toggle.style.display = "block";
         switch (clickedButton) {
             case "HTML":
                 JSONFile = "questions\\html_questions.json"
@@ -83,7 +85,7 @@ function getQuestions(JSONFile) {
             // add question data 
             addQuestionData(questions[currentIndex], questionsCount);
 
-            countDown(5, questionsCount);
+            countDown(90, questionsCount);
             // when clicking on submit button
             submitButton.onclick = () => {
 
@@ -104,7 +106,7 @@ function getQuestions(JSONFile) {
                 handleBullets();
 
                 clearInterval(countDownInterval)
-                countDown(5, questionsCount);
+                countDown(90, questionsCount);
 
                 // show results 
                 showResults(questionsCount);
