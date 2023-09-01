@@ -1,0 +1,234 @@
+[
+    {
+        "title": "What does 'PHP' stand for?",
+        "answer_1": "Personal Hypertext Processor",
+        "answer_2": "Private Home Page",
+        "answer_3": "Preprocessed Hypertext Pages",
+        "answer_4": "Hypertext Preprocessor",
+        "right_answer": "Hypertext Preprocessor"
+    },
+    {
+        "title": "Which symbol is used to begin a PHP tag?",
+        "answer_1": "&lt;?",
+        "answer_2": "&lt;?",
+        "answer_3": "&lt;php",
+        "answer_4": "&lt;?php",
+        "right_answer": "&lt;?"
+    },
+    {
+        "title": "What is the purpose of the 'echo' statement in PHP?",
+        "answer_1": "To output content to the console",
+        "answer_2": "To define a constant",
+        "answer_3": "To create a loop",
+        "answer_4": "To output content to the browser",
+        "right_answer": "To output content to the browser"
+    },
+    {
+        "title": "Which PHP function is used to output text with line breaks?",
+        "answer_1": "print()",
+        "answer_2": "printf()",
+        "answer_3": "echo()",
+        "answer_4": "nl2br()",
+        "right_answer": "nl2br()"
+    },
+    {
+        "title": "What is the correct way to comment a single line in PHP?",
+        "answer_1": "// This is a comment",
+        "answer_2": "# This is a comment",
+        "answer_3": "/* This is a comment */",
+        "answer_4": "// This is a comment //",
+        "right_answer": "# This is a comment"
+    },
+    {
+        "title": "Which PHP data type is used to store text?",
+        "answer_1": "string",
+        "answer_2": "text",
+        "answer_3": "str",
+        "answer_4": "txt",
+        "right_answer": "string"
+    },
+    {
+        "title": "What is the purpose of the 'if' statement in PHP?",
+        "answer_1": "To declare a function",
+        "answer_2": "To create a loop",
+        "answer_3": "To make decisions in code",
+        "answer_4": "To output text",
+        "right_answer": "To make decisions in code"
+    },
+    {
+        "title": "Which operator is used to compare two values for equality in PHP?",
+        "answer_1": "==",
+        "answer_2": "===",
+        "answer_3": "!=",
+        "answer_4": "!==",
+        "right_answer": "=="
+    },
+    {
+        "title": "What is the purpose of the 'foreach' loop in PHP?",
+        "answer_1": "To iterate over an array or object",
+        "answer_2": "To create a conditional loop",
+        "answer_3": "To iterate over a range of numbers",
+        "answer_4": "To iterate over characters in a string",
+        "right_answer": "To iterate over an array or object"
+    },
+    {
+        "title": "Which PHP function is used to get the length of a string?",
+        "answer_1": "length()",
+        "answer_2": "size()",
+        "answer_3": "count()",
+        "answer_4": "strlen()",
+        "right_answer": "strlen()"
+    },
+    {
+        "title": "What is the purpose of the 'include' statement in PHP?",
+        "answer_1": "To insert external JavaScript files",
+        "answer_2": "To include CSS files",
+        "answer_3": "To include HTML templates",
+        "answer_4": "To include the contents of another PHP file",
+        "right_answer": "To include the contents of another PHP file"
+    },
+    {
+        "title": "Which PHP function is used to redirect the user to another page?",
+        "answer_1": "goto()",
+        "answer_2": "header()",
+        "answer_3": "redirect()",
+        "answer_4": "location()",
+        "right_answer": "header()"
+    },
+    {
+        "title": "What is the purpose of the '$_GET' superglobal in PHP?",
+        "answer_1": "To store global variables",
+        "answer_2": "To access form data sent as URL parameters",
+        "answer_3": "To access session data",
+        "answer_4": "To access cookies",
+        "right_answer": "To access form data sent as URL parameters"
+    },
+    {
+        "title": "Which PHP function is used to open and read the contents of a file?",
+        "answer_1": "openFile()",
+        "answer_2": "readFile()",
+        "answer_3": "fileOpen()",
+        "answer_4": "fopen()",
+        "right_answer": "fopen()"
+    },
+    {
+        "title": "What is the purpose of the '$_POST' superglobal in PHP?",
+        "answer_1": "To store global variables",
+        "answer_2": "To access form data sent as URL parameters",
+        "answer_3": "To access session data",
+        "answer_4": "To access data submitted through HTTP POST",
+        "right_answer": "To access data submitted through HTTP POST"
+    },
+    {
+        "title": "What is the purpose of the '$_SESSION' superglobal in PHP?",
+        "answer_1": "To store global variables",
+        "answer_2": "To access form data sent as URL parameters",
+        "answer_3": "To access session data",
+        "answer_4": "To access cookies",
+        "right_answer": "To access session data"
+    },
+    {
+        "title": "Which PHP function is used to create a new array?",
+        "answer_1": "createArray()",
+        "answer_2": "newArray()",
+        "answer_3": "array()",
+        "answer_4": "makeArray()",
+        "right_answer": "array()"
+    },
+    {
+        "title": "What is the purpose of the '$_COOKIE' superglobal in PHP?",
+        "answer_1": "To store global variables",
+        "answer_2": "To access form data sent as URL parameters",
+        "answer_3": "To access session data",
+        "answer_4": "To access cookies",
+        "right_answer": "To access cookies"
+    },
+    {
+        "title": "Which PHP function is used to remove whitespace from the beginning and end of a string?",
+        "answer_1": "trim()",
+        "answer_2": "strip()",
+        "answer_3": "removeSpaces()",
+        "answer_4": "clean()",
+        "right_answer": "trim()"
+    },
+    {
+        "title": "What is the purpose of the '$_SERVER' superglobal in PHP?",
+        "answer_1": "To store global variables",
+        "answer_2": "To access form data sent as URL parameters",
+        "answer_3": "To access server-related information",
+        "answer_4": "To access cookies",
+        "right_answer": "To access server-related information"
+    },
+    {
+        "title": "Which PHP function is used to format numbers with thousands separators?",
+        "answer_1": "formatNumber()",
+        "answer_2": "numberFormat()",
+        "answer_3": "format()",
+        "answer_4": "numFormat()",
+        "right_answer": "numberFormat()"
+    },
+    {
+        "title": "What is the purpose of the 'die()' function in PHP?",
+        "answer_1": "To terminate the PHP script",
+        "answer_2": "To output text",
+        "answer_3": "To define a constant",
+        "answer_4": "To create a loop",
+        "right_answer": "To terminate the PHP script"
+    },
+    {
+        "title": "Which PHP function is used to generate a random number?",
+        "answer_1": "rand()",
+        "answer_2": "random()",
+        "answer_3": "generateRandom()",
+        "answer_4": "randomNumber()",
+        "right_answer": "rand()"
+    },
+    {
+        "title": "What is the purpose of the 'strlen()' function in PHP?",
+        "answer_1": "To count the number of elements in an array",
+        "answer_2": "To get the length of a string",
+        "answer_3": "To format numbers",
+        "answer_4": "To generate random numbers",
+        "right_answer": "To get the length of a string"
+    },
+    {
+        "title": "Which PHP function is used to sort an array in ascending order?",
+        "answer_1": "sort()",
+        "answer_2": "ascend()",
+        "answer_3": "arraySort()",
+        "answer_4": "ascending()",
+        "right_answer": "sort()"
+    },
+    {
+        "title": "What is the purpose of the 'date()' function in PHP?",
+        "answer_1": "To create a loop",
+        "answer_2": "To output text",
+        "answer_3": "To get the current date and time",
+        "answer_4": "To format numbers",
+        "right_answer": "To get the current date and time"
+    },
+    {
+        "title": "Which PHP function is used to connect to a MySQL database?",
+        "answer_1": "connect()",
+        "answer_2": "openConnection()",
+        "answer_3": "mysql_connect()",
+        "answer_4": "mysqli_connect()",
+        "right_answer": "mysqli_connect()"
+    },
+    {
+        "title": "What is the purpose of the 'include_once' statement in PHP?",
+        "answer_1": "To include a file multiple times",
+        "answer_2": "To include a file only if it hasn't been included before",
+        "answer_3": "To include external JavaScript files",
+        "answer_4": "To include the contents of another PHP file",
+        "right_answer": "To include a file only if it hasn't been included before"
+    },
+    {
+        "title": "Which PHP function is used to perform a case-insensitive string comparison?",
+        "answer_1": "compare()",
+        "answer_2": "equalsIgnoreCase()",
+        "answer_3": "strcasecmp()",
+        "answer_4": "compareIgnoreCase()",
+        "right_answer": "strcasecmp()"
+    }
+]

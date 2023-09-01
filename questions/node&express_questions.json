@@ -1,0 +1,218 @@
+[
+    {
+        "title": "What is Node.js?",
+        "answer_1": "A web browser",
+        "answer_2": "A server-side JavaScript runtime",
+        "answer_3": "A front-end framework",
+        "answer_4": "A database management system",
+        "right_answer": "A server-side JavaScript runtime"
+    },
+    {
+        "title": "Which package manager is commonly used with Node.js?",
+        "answer_1": "NPM",
+        "answer_2": "PIP",
+        "answer_3": "Composer",
+        "answer_4": "Yarn",
+        "right_answer": "NPM"
+    },
+    {
+        "title": "What is the main purpose of NPM (Node Package Manager)?",
+        "answer_1": "To manage databases",
+        "answer_2": "To create front-end interfaces",
+        "answer_3": "To manage JavaScript packages and dependencies",
+        "answer_4": "To write server-side code",
+        "right_answer": "To manage JavaScript packages and dependencies"
+    },
+    {
+        "title": "Which of the following is a core module in Node.js?",
+        "answer_1": "http",
+        "answer_2": "react",
+        "answer_3": "angular",
+        "answer_4": "jquery",
+        "right_answer": "http"
+    },
+    {
+        "title": "What is Express.js?",
+        "answer_1": "A database management system",
+        "answer_2": "A front-end framework",
+        "answer_3": "A server-side JavaScript runtime",
+        "answer_4": "A web application framework for Node.js",
+        "right_answer": "A web application framework for Node.js"
+    },
+    {
+        "title": "Which method is commonly used to create a new Express.js application?",
+        "answer_1": "createApp()",
+        "answer_2": "new App()",
+        "answer_3": "expressApp()",
+        "answer_4": "express()",
+        "right_answer": "express()"
+    },
+    {
+        "title": "What is a middleware in the context of Express.js?",
+        "answer_1": "A database management system",
+        "answer_2": "A function that handles HTTP requests and responses",
+        "answer_3": "A front-end framework",
+        "answer_4": "A templating engine",
+        "right_answer": "A function that handles HTTP requests and responses"
+    },
+    {
+        "title": "Which HTTP method is used to retrieve data from a server in Express.js?",
+        "answer_1": "POST",
+        "answer_2": "GET",
+        "answer_3": "DELETE",
+        "answer_4": "PUT",
+        "right_answer": "GET"
+    },
+    {
+        "title": "What does the 'req' object represent in Express.js?",
+        "answer_1": "Response object",
+        "answer_2": "Request object",
+        "answer_3": "Router object",
+        "answer_4": "Rendering engine",
+        "right_answer": "Request object"
+    },
+    {
+        "title": "What does the 'res' object represent in Express.js?",
+        "answer_1": "Request object",
+        "answer_2": "Rendering engine",
+        "answer_3": "Router object",
+        "answer_4": "Response object",
+        "right_answer": "Response object"
+    },
+    {
+        "title": "Which method is used to send a response from an Express.js route?",
+        "answer_1": "sendResponse()",
+        "answer_2": "send()",
+        "answer_3": "respond()",
+        "answer_4": "writeResponse()",
+        "right_answer": "send()"
+    },
+    {
+        "title": "What is a route in Express.js?",
+        "answer_1": "A URL path that corresponds to a function",
+        "answer_2": "A function that handles database operations",
+        "answer_3": "A rendering engine",
+        "answer_4": "A front-end framework",
+        "right_answer": "A URL path that corresponds to a function"
+    },
+    {
+        "title": "Which middleware is commonly used to parse JSON data in Express.js?",
+        "answer_1": "jsonParser()",
+        "answer_2": "bodyParser()",
+        "answer_3": "urlEncoded()",
+        "answer_4": "parseJSON()",
+        "right_answer": "bodyParser()"
+    },
+    {
+        "title": "What is a template engine in the context of Express.js?",
+        "answer_1": "A function that handles HTTP requests and responses",
+        "answer_2": "A front-end framework",
+        "answer_3": "A rendering engine that generates HTML from templates",
+        "answer_4": "A server-side JavaScript runtime",
+        "right_answer": "A rendering engine that generates HTML from templates"
+    },
+    {
+        "title": "Which template engine is commonly used with Express.js?",
+        "answer_1": "React",
+        "answer_2": "Angular",
+        "answer_3": "Pug (formerly Jade)",
+        "answer_4": "Vue.js",
+        "right_answer": "Pug (formerly Jade)"
+    },
+    {
+        "title": "What is the purpose of the 'static' middleware in Express.js?",
+        "answer_1": "To handle dynamic routes",
+        "answer_2": "To serve static files such as images, CSS, and JavaScript",
+        "answer_3": "To handle form submissions",
+        "answer_4": "To handle database connections",
+        "right_answer": "To serve static files such as images, CSS, and JavaScript"
+    },
+    {
+        "title": "Which method is used to start a server and listen for incoming requests in Express.js?",
+        "answer_1": "startServer()",
+        "answer_2": "createServer()",
+        "answer_3": "listen()",
+        "answer_4": "runServer()",
+        "right_answer": "listen()"
+    },
+    {
+        "title": "What is the purpose of the 'next()' function in Express.js middleware?",
+        "answer_1": "To terminate the current request",
+        "answer_2": "To send a response to the client",
+        "answer_3": "To pass control to the next middleware in the chain",
+        "answer_4": "To redirect the client to another route",
+        "right_answer": "To pass control to the next middleware in the chain"
+    },
+    {
+        "title": "What is the purpose of the 'router' object in Express.js?",
+        "answer_1": "To handle HTTP requests and responses",
+        "answer_2": "To define routes for a specific URL path",
+        "answer_3": "To render templates",
+        "answer_4": "To manage database connections",
+        "right_answer": "To define routes for a specific URL path"
+    },
+    {
+        "title": "Which method is used to define a route for handling POST requests in Express.js?",
+        "answer_1": "express.get()",
+        "answer_2": "express.post()",
+        "answer_3": "express.route()",
+        "answer_4": "express.handle()",
+        "right_answer": "express.post()"
+    },
+    {
+        "title": "What is the purpose of the 'body-parser' middleware in Express.js?",
+        "answer_1": "To handle dynamic routes",
+        "answer_2": "To serve static files",
+        "answer_3": "To parse JSON and URL-encoded data from requests",
+        "answer_4": "To render templates",
+        "right_answer": "To parse JSON and URL-encoded data from requests"
+    },
+    {
+        "title": "What is the purpose of the 'mongoose' library in Node.js?",
+        "answer_1": "To create front-end interfaces",
+        "answer_2": "To handle server-side routing",
+        "answer_3": "To manage database connections and models",
+        "answer_4": "To serve static files",
+        "right_answer": "To manage database connections and models"
+    },
+    {
+        "title": "What is the purpose of the 'async' library in Node.js?",
+        "answer_1": "To handle asynchronous operations with callbacks",
+        "answer_2": "To serve static files",
+        "answer_3": "To create front-end interfaces",
+        "answer_4": "To handle server-side routing",
+        "right_answer": "To handle asynchronous operations with callbacks"
+    },
+    {
+        "title": "What is the purpose of the 'path' module in Node.js?",
+        "answer_1": "To handle server-side routing",
+        "answer_2": "To manage file paths and directories",
+        "answer_3": "To create front-end interfaces",
+        "answer_4": "To serve static files",
+        "right_answer": "To manage file paths and directories"
+    },
+    {
+        "title": "Which HTTP method is used to update data on the server in Express.js?",
+        "answer_1": "POST",
+        "answer_2": "PUT",
+        "answer_3": "UPDATE",
+        "answer_4": "PATCH",
+        "right_answer": "PUT"
+    },
+    {
+        "title": "What is the purpose of the 'morgan' middleware in Express.js?",
+        "answer_1": "To serve static files",
+        "answer_2": "To create front-end interfaces",
+        "answer_3": "To handle server-side routing",
+        "answer_4": "To log HTTP requests and responses",
+        "right_answer": "To log HTTP requests and responses"
+    },
+    {
+        "title": "Which method is used to handle errors in Express.js?",
+        "answer_1": "express.error()",
+        "answer_2": "express.handleError()",
+        "answer_3": "express.catchError()",
+        "answer_4": "app.use() with an error-handling middleware",
+        "right_answer": "app.use() with an error-handling middleware"
+    }
+]

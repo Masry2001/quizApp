@@ -1,0 +1,24 @@
+Quiz Application 
+[done]
+1- create JSON Object for questions
+2- create HTML Markup
+3- Add Text Data
+4- Add the Styling
+5- Fetch number of questions from JSON Object
+7- set the number of wrong and right answers
+9- Fetch question from JSON Object
+10- show first question 
+11- check the answer then hide question then show next one
+13- show number of bullets depend on questions count
+14- add class on bullets after answering question
+15- if questions finished show result
+12- if time end mark the question as wrong then show the next
+
+
+[in progress]
+6- show questions type and category
+
+Ideas
+1- create number of JSON Objects and choose language of the Quiz (make number of buttons each button call a specific category)
+2- Add many questions (30) and choose 6 only radnomly
+3- Radnomize the answers

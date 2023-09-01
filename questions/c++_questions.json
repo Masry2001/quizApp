@@ -1,0 +1,226 @@
+[
+    {
+        "title": "What does 'C++' stand for?",
+        "answer_1": "C Plus",
+        "answer_2": "Computer Plus",
+        "answer_3": "C Plus Plus",
+        "answer_4": "C Positive",
+        "right_answer": "C Plus Plus"
+    },
+    {
+        "title": "Which operator is used to access the memory address of a variable in C++?",
+        "answer_1": "&",
+        "answer_2": "*",
+        "answer_3": "#",
+        "answer_4": "$",
+        "right_answer": "&"
+    },
+    {
+        "title": "What is the purpose of the 'cout' object in C++?",
+        "answer_1": "To read input from the user",
+        "answer_2": "To perform mathematical calculations",
+        "answer_3": "To output text to the console",
+        "answer_4": "To create classes",
+        "right_answer": "To output text to the console"
+    },
+    {
+        "title": "Which data type is used to store whole numbers in C++?",
+        "answer_1": "float",
+        "answer_2": "integer",
+        "answer_3": "int",
+        "answer_4": "decimal",
+        "right_answer": "int"
+    },
+    {
+        "title": "What is the purpose of the 'if' statement in C++?",
+        "answer_1": "To create loops",
+        "answer_2": "To define functions",
+        "answer_3": "To make decisions in code",
+        "answer_4": "To output text",
+        "right_answer": "To make decisions in code"
+    },
+    {
+        "title": "Which operator is used to perform division and get the quotient in C++?",
+        "answer_1": "/",
+        "answer_2": "%",
+        "answer_3": "%%",
+        "answer_4": "*",
+        "right_answer": "/"
+    },
+    {
+        "title": "What is the correct syntax to define a function in C++?",
+        "answer_1": "function myFunction() {}",
+        "answer_2": "myFunction() {}",
+        "answer_3": "def myFunction() {}",
+        "answer_4": "void myFunction() {}",
+        "right_answer": "void myFunction() {}"
+    },
+    {
+        "title": "Which header file is required to use the 'cin' object in C++?",
+        "answer_1": "&lt;input>",
+        "answer_2": "&lt;output>",
+        "answer_3": "&lt;iostream>",
+        "answer_4": "&lt;stdio>",
+        "right_answer": "&lt;iostream>"
+    },
+    {
+        "title": "What is the purpose of the 'for' loop in C++?",
+        "answer_1": "To create conditional statements",
+        "answer_2": "To define functions",
+        "answer_3": "To make decisions in code",
+        "answer_4": "To create loops with a fixed number of iterations",
+        "right_answer": "To create loops with a fixed number of iterations"
+    },
+    {
+        "title": "Which operator is used to increment a variable by 1 in C++?",
+        "answer_1": "++",
+        "answer_2": "--",
+        "answer_3": "+=",
+        "answer_4": "-=",
+        "right_answer": "++"
+    },
+    {
+        "title": "What is the purpose of the 'return' statement in a C++ function?",
+        "answer_1": "To define the function's name",
+        "answer_2": "To output text",
+        "answer_3": "To indicate the end of the program",
+        "answer_4": "To return a value from the function",
+        "right_answer": "To return a value from the function"
+    },
+    {
+        "title": "Which operator is used to compare two values for equality in C++?",
+        "answer_1": "==",
+        "answer_2": "===",
+        "answer_3": "!=",
+        "answer_4": "<>",
+        "right_answer": "=="
+    },
+    {
+        "title": "What is the purpose of the 'while' loop in C++?",
+        "answer_1": "To create loops",
+        "answer_2": "To make decisions in code",
+        "answer_3": "To define functions",
+        "answer_4": "To create conditional statements",
+        "right_answer": "To create loops"
+    },
+    {
+        "title": "Which data type is used to store decimal numbers in C++?",
+        "answer_1": "double",
+        "answer_2": "float",
+        "answer_3": "decimal",
+        "answer_4": "number",
+        "right_answer": "double"
+    },
+    {
+        "title": "What is the purpose of the 'break' statement in C++?",
+        "answer_1": "To exit a loop",
+        "answer_2": "To output text",
+        "answer_3": "To make decisions in code",
+        "answer_4": "To define functions",
+        "right_answer": "To exit a loop"
+    },
+    {
+        "title": "Which C++ library is used for input and output operations?",
+        "answer_1": "&lt;input>",
+        "answer_2": "&lt;stdio>",
+        "answer_3": "&lt;iostream>",
+        "answer_4": "&lt;output>",
+        "right_answer": "&lt;iostream>"
+    },
+    {
+        "title": "What is the purpose of the 'new' operator in C++?",
+        "answer_1": "To allocate memory for a variable",
+        "answer_2": "To increment a variable by 1",
+        "answer_3": "To create a new function",
+        "answer_4": "To define a new data type",
+        "right_answer": "To allocate memory for a variable"
+    },
+    {
+        "title": "Which operator is used to access a class's member variables and functions in C++?",
+        "answer_1": "::",
+        "answer_2": ".",
+        "answer_3": "->",
+        "answer_4": "=>",
+        "right_answer": "."
+    },
+    {
+        "title": "What is the purpose of the 'const' keyword in C++?",
+        "answer_1": "To define constant values",
+        "answer_2": "To create loops",
+        "answer_3": "To make decisions in code",
+        "answer_4": "To define functions",
+        "right_answer": "To define constant values"
+    },
+    {
+        "title": "Which C++ operator is used to allocate memory for a data type?",
+        "answer_1": "allocate",
+        "answer_2": "new",
+        "answer_3": "malloc",
+        "answer_4": "memory",
+        "right_answer": "new"
+    },
+    {
+        "title": "What is the purpose of the 'void' keyword in a C++ function?",
+        "answer_1": "To indicate a function has no parameters",
+        "answer_2": "To indicate the function's return type",
+        "answer_3": "To define a variable",
+        "answer_4": "To define a loop",
+        "right_answer": "To indicate the function's return type"
+    },
+    {
+        "title": "Which C++ operator is used to create an alias for a data type?",
+        "answer_1": "using",
+        "answer_2": "typedef",
+        "answer_3": "alias",
+        "answer_4": "data",
+        "right_answer": "typedef"
+    },
+    {
+        "title": "What is the purpose of the 'namespace' keyword in C++?",
+        "answer_1": "To define a new data type",
+        "answer_2": "To create an instance of a class",
+        "answer_3": "To group related functions and classes",
+        "answer_4": "To define a loop",
+        "right_answer": "To group related functions and classes"
+    },
+    {
+        "title": "Which C++ library is used for working with strings?",
+        "answer_1": "&lt;string>",
+        "answer_2": "&lt;iostream>",
+        "answer_3": "&lt;stdio>",
+        "answer_4": "&lt;cstring>",
+        "right_answer": "&lt;string>"
+    },
+    {
+        "title": "What is the purpose of the 'virtual' keyword in C++?",
+        "answer_1": "To declare a variable",
+        "answer_2": "To define a loop",
+        "answer_3": "To indicate a base class function can be overridden",
+        "answer_4": "To define a constant",
+        "right_answer": "To indicate a base class function can be overridden"
+    },
+    {
+        "title": "Which C++ keyword is used to inherit properties and behaviors from a base class?",
+        "answer_1": "copy",
+        "answer_2": "inherit",
+        "answer_3": "extend",
+        "answer_4": "public",
+        "right_answer": "public"
+    },
+    {
+        "title": "What is the purpose of the 'this' pointer in C++?",
+        "answer_1": "To access the previous object",
+        "answer_2": "To access the parent object",
+        "answer_3": "To access the current object",
+        "answer_4": "To access the child object",
+        "right_answer": "To access the current object"
+    },
+    {
+        "title": "Which C++ operator is used to access a pointer's value?",
+        "answer_1": "*",
+        "answer_2": "&",
+        "answer_3": "->",
+        "answer_4": ".",
+        "right_answer": "*"
+    }
+]

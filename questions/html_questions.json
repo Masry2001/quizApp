@@ -1,0 +1,242 @@
+[
+    {
+        "title": "Which HTML tag is used for creating a line break?",
+        "answer_1": "<break>",
+        "answer_2": "<br>",
+        "answer_3": "<lb>",
+        "answer_4": "<newline>",
+        "right_answer": "<br>"
+    },
+    {
+        "title": "What is the correct HTML element for inserting a space?",
+        "answer_1": "<space>",
+        "answer_2": "<s>",
+        "answer_3": "<sp>",
+        "answer_4": "<nbsp>",
+        "right_answer": "<nbsp>"
+    },
+    {
+        "title": "Which HTML tag is used for creating a paragraph?",
+        "answer_1": "<para>",
+        "answer_2": "<p>",
+        "answer_3": "<text>",
+        "answer_4": "<line>",
+        "right_answer": "<p>"
+    },
+    {
+        "title": "What is the purpose of the <head> tag in HTML?",
+        "answer_1": "To define the main content of the page",
+        "answer_2": "To create a heading",
+        "answer_3": "To define metadata about the webpage",
+        "answer_4": "To format text",
+        "right_answer": "To define metadata about the webpage"
+    },
+    {
+        "title": "Which HTML tag is used for creating a numbered list?",
+        "answer_1": "<nl>",
+        "answer_2": "<ul>",
+        "answer_3": "<ol>",
+        "answer_4": "<list>",
+        "right_answer": "<ol>"
+    },
+    {
+        "title": "What is the purpose of the <iframe> tag in HTML?",
+        "answer_1": "To embed video",
+        "answer_2": "To display a font",
+        "answer_3": "To create an inline frame",
+        "answer_4": "To format text",
+        "right_answer": "To create an inline frame"
+    },
+    {
+        "title": "Which HTML tag is used for creating a horizontal line?",
+        "answer_1": "<break>",
+        "answer_2": "<line>",
+        "answer_3": "<hr>",
+        "answer_4": "<hline>",
+        "right_answer": "<hr>"
+    },
+    {
+        "title": "What is the purpose of the <title> tag in HTML?",
+        "answer_1": "To create a heading",
+        "answer_2": "To define the main content of the page",
+        "answer_3": "To define the document's title",
+        "answer_4": "To format text",
+        "right_answer": "To define the document's title"
+    },
+    {
+        "title": "Which HTML element is used for creating a checkbox?",
+        "answer_1": "<input type='check'>",
+        "answer_2": "<checkbox>",
+        "answer_3": "<input type='checkbox'>",
+        "answer_4": "<check>",
+        "right_answer": "<input type='checkbox'>"
+    },
+    {
+        "title": "What is the correct way to add a background color to an HTML element?",
+        "answer_1": "background-color: red;",
+        "answer_2": "bgcolor: red;",
+        "answer_3": "color: red;",
+        "answer_4": "background: red;",
+        "right_answer": "background-color: red;"
+    },
+    {
+        "title": "Which HTML tag is used for creating a button?",
+        "answer_1": "<btn>",
+        "answer_2": "<button>",
+        "answer_3": "<input type='button'>",
+        "answer_4": "<b>",
+        "right_answer": "<button>"
+    },
+    {
+        "title": "What is the purpose of the <ul> tag in HTML?",
+        "answer_1": "To create an unordered list",
+        "answer_2": "To define a hyperlink",
+        "answer_3": "To format text",
+        "answer_4": "To embed an image",
+        "right_answer": "To create an unordered list"
+    },
+    {
+        "title": "Which HTML attribute is used to define inline styles?",
+        "answer_1": "styles",
+        "answer_2": "format",
+        "answer_3": "inline-style",
+        "answer_4": "style",
+        "right_answer": "style"
+    },
+    {
+        "title": "What is the correct HTML element for inserting a line break?",
+        "answer_1": "<lb>",
+        "answer_2": "<break>",
+        "answer_3": "<br>",
+        "answer_4": "<newline>",
+        "right_answer": "<br>"
+    },
+    {
+        "title": "Which HTML tag is used for defining the document's head?",
+        "answer_1": "<header>",
+        "answer_2": "<body>",
+        "answer_3": "<head>",
+        "answer_4": "<document>",
+        "right_answer": "<head>"
+    },
+    {
+        "title": "What is the purpose of the <b> tag in HTML?",
+        "answer_1": "To create a button",
+        "answer_2": "To format text as bold",
+        "answer_3": "To create a line break",
+        "answer_4": "To define a hyperlink",
+        "right_answer": "To format text as bold"
+    },
+    {
+        "title": "Which HTML tag is used for creating an input field for entering text?",
+        "answer_1": "<input type='text'>",
+        "answer_2": "<textinput>",
+        "answer_3": "<textfield>",
+        "answer_4": "<input type='textbox'>",
+        "right_answer": "<input type='text'>"
+    },
+    {
+        "title": "What is the purpose of the <cite> tag in HTML?",
+        "answer_1": "To define a citation",
+        "answer_2": "To format text as italic",
+        "answer_3": "To create a hyperlink",
+        "answer_4": "To define a heading",
+        "right_answer": "To define a citation"
+    },
+    {
+        "title": "Which HTML attribute is used to specify an alternative text for images?",
+        "answer_1": "alt",
+        "answer_2": "src",
+        "answer_3": "alternative",
+        "answer_4": "title",
+        "right_answer": "alt"
+    },
+    {
+        "title": "What is the purpose of the <br> element in HTML?",
+        "answer_1": "To make text bold",
+        "answer_2": "To make text italic",
+        "answer_3": "To add a breakline",
+        "answer_4": "To add a horizontal line",
+        "right_answer": "To add a breakline"
+    },
+    {
+        "title": "What does HTML stand for?",
+        "answer_1": "Hyper Text Markup Language",
+        "answer_2": "High Tech Modern Language",
+        "answer_3": "Hyperlink and Text Markup Language",
+        "answer_4": "Hyper Transfer Markup Language",
+        "right_answer": "Hyper Text Markup Language"
+    },
+    {
+        "title": "Which HTML tag is used for creating a hyperlink?",
+        "answer_1": "<link>",
+        "answer_2": "<hyperlink>",
+        "answer_3": "<a>",
+        "answer_4": "<url>",
+        "right_answer": "<a>"
+    },
+    {
+        "title": "Which HTML tag is used for creating an unordered list?",
+        "answer_1": "<list>",
+        "answer_2": "<ol>",
+        "answer_3": "<ul>",
+        "answer_4": "<unordered-list>",
+        "right_answer": "<ul>"
+    },
+    {
+        "title": "What does the DOCTYPE declaration in HTML do?",
+        "answer_1": "Defines the document's title",
+        "answer_2": "Defines the document's structure",
+        "answer_3": "Defines the document's character encoding",
+        "answer_4": "Defines the document's type and version",
+        "right_answer": "Defines the document's type and version"
+    },
+    {
+        "title": "Which HTML tag is used for creating a form?",
+        "answer_1": "<form>",
+        "answer_2": "<input>",
+        "answer_3": "<submit>",
+        "answer_4": "<field>",
+        "right_answer": "<form>"
+    },
+    {
+        "title": "In HTML, which attribute is used to define the alternative text for an image?",
+        "answer_1": "alt",
+        "answer_2": "src",
+        "answer_3": "link",
+        "answer_4": "img-alt",
+        "right_answer": "alt"
+    },
+    {
+        "title": "Which HTML element is used for creating a hyperlink?",
+        "answer_1": "<a>",
+        "answer_2": "<link>",
+        "answer_3": "<hyperlink>",
+        "answer_4": "<url>",
+        "right_answer": "<a>"
+    },
+    {
+        "title": "What is the correct way to comment out multiple lines in HTML?",
+        "answer_1": "<!-- This is a comment -->",
+        "answer_2": "// This is a comment",
+        "answer_3": "/* This is a comment */",
+        "answer_4": "# This is a comment #",
+        "right_answer": "<!-- This is a comment -->"
+    },
+    {
+        "title": "Which HTML tag is used for creating a heading?",
+        "answer_1": "<h>",
+        "answer_2": "<head>",
+        "answer_3": "<header>",
+        "answer_4": "<h1>",
+        "right_answer": "<h1>"
+    },
+    {
+        "title": "What is the purpose of the <meta> tag in HTML?",
+        "answer_1": "To define a hyperlink",
+        "answer_2": "To create metadata about the webpage",
+        "answer_3": "To embed an image",
+        "answer_4": "To format text",
+        "right_answer": "To create metadata about the webpage"
+    }
+]
