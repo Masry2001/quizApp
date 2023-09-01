@@ -79,6 +79,8 @@ function getQuestions(JSONFile) {
             let questionsCount = questions.length;
             let count = 6
 
+
+            shuffleArray(questions);
             // creating bullets + set questions count
             createBullets(questionsCount);
 
@@ -267,5 +269,12 @@ function countDown(duration, questionsCount) {
 
             }
         }, 1000)
+    }
+}
+
+function shuffleArray(questions) {
+    for (let i = questions.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [questions[i], questions[j]] = [questions[j], questions[i]];
     }
 }
