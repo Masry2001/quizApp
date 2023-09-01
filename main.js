@@ -8,6 +8,11 @@ let answersArea = document.querySelector(".answers");
 let submitButton = document.querySelector(".submit");
 let resultsDiv = document.querySelector(".results");
 let countDownDiv = document.querySelector(".countdown");
+let questionsCategory = document.querySelector(".questions-category");
+let quizApp = document.querySelector(".quiz-app");
+let questionsh3 = document.querySelector(".quiz-app h3");
+let questionsButtons = document.querySelectorAll(".questions-category button");
+let category = document.querySelector(".category span")
 
 // set options
 let currentIndex = 0;
@@ -17,11 +22,52 @@ let randomIndex = Math.floor(Math.random() * 24);
 // make a random number from 0 to 24
 
 
-getQuestions();
+questionsButtons.forEach((questionButton, index) => {
+    questionButton.onclick = function () {
+        let clickedButton = questionButton.innerHTML;
+        category.innerHTML = clickedButton;
+        let JSONFile = "";
+        switch (clickedButton) {
+            case "HTML":
+                JSONFile = "questions\\html_questions.json"
+                break;
+            case "CSS":
+                JSONFile = "questions\\css_questions.json"
+                break;
+            case "JS":
+                JSONFile = "questions\\js_questions.json"
+                break;
+            case "PHP":
+                JSONFile = "questions\\php_questions.json"
+                break;
+            case "NODE.JS":
+                JSONFile = "questions\\node&express_questions.json";
+                break;
+            case "C++":
+                JSONFile = "questions\\c++_questions.json"
+        }
+
+        getQuestions(JSONFile);
+        questionsh3.remove();
+        questionsCategory.remove()
+
+
+        let button = document.createElement("button");
+        button.className = "another-quiz"
+        buttonText = document.createTextNode("Take Another Quiz")
+        button.appendChild(buttonText);
+        quizApp.append(button);
+
+        button.onclick = function () {
+            location.reload();;
+        }
+
+    }
+})
 
 // getQuestions function is used to get question from a specific file 
 // remember to make the url dynamic 
-function getQuestions() {
+function getQuestions(JSONFile) {
     let myRequest = new XMLHttpRequest();
 
     myRequest.onreadystatechange = function () {
@@ -67,7 +113,7 @@ function getQuestions() {
         }
     }
 
-    myRequest.open("GET", "questions/html_questions.json", true);
+    myRequest.open("GET", JSONFile, true);
     myRequest.send();
 }
 
@@ -211,7 +257,7 @@ function countDown(duration, questionsCount) {
             minutes = minutes < 10 ? `0${minutes}` : minutes;
             seconds = seconds < 10 ? `0${seconds}` : seconds;
 
-            countDownDiv.innerHTML = `${minutes}:${seconds}`
+            countDownDiv.textContent = `Countdown: ${minutes}:${seconds}`
 
             if (--duration < 0) {
                 clearInterval(countDownInterval);

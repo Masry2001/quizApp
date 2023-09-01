@@ -20,5 +20,8 @@ Quiz Application
 
 Ideas
 1- create number of JSON Objects and choose language of the Quiz (make number of buttons each button call a specific category)
+    1/ created the buttons 
+    2/ created the number of JSON Objects
+    3/ 
 2- Add many questions (30) and choose 6 only radnomly
 3- Radnomize the answers
