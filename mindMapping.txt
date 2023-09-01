@@ -15,10 +15,10 @@ Quiz Application
 12- if time end mark the question as wrong then show the next
 6- show questions type and category
 1- create number of JSON Objects and choose language of the Quiz (make number of buttons each button call a specific category)
+2- Add many questions (30) and choose 6 only radnomly
 
 
 [in progress]
 
 Ideas
-2- Add many questions (30) and choose 6 only radnomly
 3- Radnomize the answers

@@ -76,11 +76,10 @@ function getQuestions(JSONFile) {
 
         if (this.readyState === 4 && this.status === 200) {
             let questions = JSON.parse(this.responseText); // array of objects, each object is a question
-            let questionsCount = questions.length;
-            let count = 6
-
+            let questionsCount = 6;
 
             shuffleArray(questions);
+
             // creating bullets + set questions count
             createBullets(questionsCount);
 
@@ -200,7 +199,6 @@ function addQuestionData(question, questionsCount) {
 
         }
     }
-
 
 }
 
